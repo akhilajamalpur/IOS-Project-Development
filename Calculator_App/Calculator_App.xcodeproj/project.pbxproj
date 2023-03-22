@@ -10,11 +10,11 @@
 		416B379D29CB62CA00CA268C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416B379C29CB62CA00CA268C /* AppDelegate.swift */; };
 		416B379F29CB62CA00CA268C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416B379E29CB62CA00CA268C /* SceneDelegate.swift */; };
 		416B37A129CB62CA00CA268C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416B37A029CB62CA00CA268C /* ViewController.swift */; };
-		416B37A629CB62DE00CA268C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416B37A529CB62DE00CA268C /* Assets.xcassets */; };
 		416B37A929CB62DE00CA268C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 416B37A729CB62DE00CA268C /* LaunchScreen.storyboard */; };
 		416B37B429CB62DE00CA268C /* Calculator_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416B37B329CB62DE00CA268C /* Calculator_AppTests.swift */; };
 		416B37BF29CB62DF00CA268C /* Calculator_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416B37BE29CB62DF00CA268C /* Calculator_AppUITests.swift */; };
 		416B37D029CB64C100CA268C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 416B37CF29CB64C100CA268C /* Main.storyboard */; };
+		416B37D829CB64FE00CA268C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416B37D729CB64FE00CA268C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 		416B379C29CB62CA00CA268C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		416B379E29CB62CA00CA268C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		416B37A029CB62CA00CA268C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		416B37A529CB62DE00CA268C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		416B37A829CB62DE00CA268C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		416B37AA29CB62DE00CA268C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		416B37AF29CB62DE00CA268C /* Calculator_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Calculator_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +48,7 @@
 		416B37BE29CB62DF00CA268C /* Calculator_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator_AppUITests.swift; sourceTree = "<group>"; };
 		416B37C029CB62DF00CA268C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		416B37CF29CB64C100CA268C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		416B37D729CB64FE00CA268C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Desktop/Akhila/Calculator_App/Calculator_App/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 				416B379E29CB62CA00CA268C /* SceneDelegate.swift */,
 				416B37A029CB62CA00CA268C /* ViewController.swift */,
 				416B37CF29CB64C100CA268C /* Main.storyboard */,
-				416B37A529CB62DE00CA268C /* Assets.xcassets */,
+				416B37D729CB64FE00CA268C /* Assets.xcassets */,
 				416B37A729CB62DE00CA268C /* LaunchScreen.storyboard */,
 				416B37AA29CB62DE00CA268C /* Info.plist */,
 			);
@@ -232,7 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				416B37A929CB62DE00CA268C /* LaunchScreen.storyboard in Resources */,
-				416B37A629CB62DE00CA268C /* Assets.xcassets in Resources */,
+				416B37D829CB64FE00CA268C /* Assets.xcassets in Resources */,
 				416B37D029CB64C100CA268C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
