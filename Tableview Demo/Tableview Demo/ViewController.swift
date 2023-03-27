@@ -21,7 +21,15 @@ class ViewController: UIViewController {
 }
 extension ViewController: UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
+      return 5
+    }
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell=myTable.dequeueReusableCell(withIdentifier: "cell",for: indexPath)
+        cell.textLabel?.text="Demo cell \(indexPath)"
+        return cell
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("Cell \(indexPath.row) selected")
     }
 }
 
