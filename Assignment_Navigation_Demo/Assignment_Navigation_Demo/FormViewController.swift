@@ -33,7 +33,8 @@ class FormViewController: UIViewController {
         destVC.Address = address.text!
         destVC.Country = country.text!
         destVC.City = city.text!
-        destVC.Pincode = pincode.text!
+            destVC.Pincode = pincode.text!
+            
         }
     }
     
