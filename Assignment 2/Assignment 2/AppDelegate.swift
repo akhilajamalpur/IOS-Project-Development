@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Calculator_App
+//  Assignment 2
 //
-//  Created by Canadore Student on 2023-03-22.
+//  Created by Canadore Student on 2023-03-27.
 //
 
 import UIKit
