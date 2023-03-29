@@ -2,7 +2,7 @@
 //  InfoViewController.swift
 //  NavigationDemo
 //
-//  Created by Canadore Student on 2023-03-22.
+
 //  Copyright © 2023 Student. All rights reserved.
 //
 
@@ -13,28 +13,30 @@ class InfoViewController: UIViewController {
     @IBOutlet weak var lastname: UILabel!
     @IBOutlet weak var email: UILabel!
     @IBOutlet weak var address: UILabel!
-    @IBOutlet weak var country: UILabel!
+   // @IBOutlet weak var country: UILabel!
     @IBOutlet weak var city: UILabel!
+    @IBOutlet weak var pswdtxt: UILabel!
     @IBOutlet weak var pcode: UILabel!
     
     var fname = ""
     var lname = ""
     var Email = ""
     var Address = ""
-    var Country = ""
+    var Pswd=""
     var City = ""
-    var Pincode = ""
+    var Postalcode = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         firstname.text = "First Name: " + fname
         lastname.text = "Last Name: " + lname
-        email.text = "Email: " + Email
+        email.text = "Email Id: " + Email
         address.text = "Address:" + Address
-        country.text = "Country:" + Country
+       // country.text = "Country:" + Country
         city.text = "City:" + City
-        pcode.text = "PINCODE:" + Pincode
+        pswdtxt.text = "Password:"+Pswd
+        pcode.text = "Postal Code:" + Postalcode
 
         // Do any additional setup after loading the view.
     }

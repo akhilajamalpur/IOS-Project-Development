@@ -13,9 +13,10 @@ class FormViewController: UIViewController {
     @IBOutlet weak var lastname: UITextField!
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var address: UITextField!
-    @IBOutlet weak var country: UITextField!
+    //@IBOutlet weak var country: UITextField!
     @IBOutlet weak var city: UITextField!
-    @IBOutlet weak var pincode: UITextField!
+    @IBOutlet weak var pswdtxt: UITextField!
+    @IBOutlet weak var postalcode: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,11 +30,13 @@ class FormViewController: UIViewController {
         let destVC = segue.destination as! InfoViewController
         destVC.fname = firstname.text!
         destVC.lname = lastname.text!
+            
         destVC.Email = email.text!
         destVC.Address = address.text!
-        destVC.Country = country.text!
+       // destVC.Country = country.text!
         destVC.City = city.text!
-            destVC.Pincode = pincode.text!
+        destVC.Pswd = pswdtxt.text!
+        destVC.Postalcode = postalcode.text!
             
         }
     }
